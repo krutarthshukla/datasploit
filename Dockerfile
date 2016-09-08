@@ -18,7 +18,7 @@ RUN apt-get -qy update \
 RUN mv /datasploit/config_sample.py /datasploit/config.py
 RUN mkdir -p /datasploit/datasploitDb
 
-ADD start.sh /strt.sh
+ADD strt.sh /strt.sh
 ADD cl.sh /cl.sh
 RUN chmod +x /strt.sh
 RUN chmod +x /cl.sh
